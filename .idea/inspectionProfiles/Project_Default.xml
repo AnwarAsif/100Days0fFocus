@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="LatexLineBreak" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="LatexMissingImport" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="numberOfIndexedUsePackages" value="19" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="coverage" />
+            <item index="1" class="java.lang.String" itemvalue="wired" />
+            <item index="2" class="java.lang.String" itemvalue="venusian" />
+            <item index="3" class="java.lang.String" itemvalue="dataclasses" />
+            <item index="4" class="java.lang.String" itemvalue="pytest" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="config" />
+          <option value="fortytwo.s21_install_and_import.name" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
